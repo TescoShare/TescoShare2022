@@ -1,0 +1,58 @@
+@charset "UTF-8";
+*{margin: 0;padding: 0;}
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {margin: 0;padding: 0;}
+
+fieldset, img, input, button {border: none;padding: 0;margin: 0; outline-style: none;}
+
+ul, ol {list-style: none;}
+
+input {padding-top: 0;padding-bottom: 0;font-family: "MicrosoftYahei";}
+
+select, input {vertical-align: middle;}
+
+select, input, textarea {margin: 0;}
+
+textarea {resize: none;}
+
+img {border: 0;vertical-align: middle;}
+
+html{width: 100%;}
+
+body {font-family: "microsoft yahei";background: #fff;position: relative;width: 100%;overflow-x:hidden;}
+
+.clearfix:before, .clearfix:after {content: "";display: table;}
+
+.clearfix:after {clear: both;}
+
+.clearfix {*zoom: 1; }
+
+a {text-decoration: none;}
+
+s, i, em{font-style: normal;text-decoration: none;}
+
+@media screen and (min-width : 1000px){
+    .w {width: 1000px;margin: 0 auto;position: relative;}
+}
+@media screen and (max-width : 999px) and (min-width : 768px){.w{width: 100%;min-width: 790px;}
+}
+@media screen and (max-width : 767px){
+    .w {}
+}
+
+.fl {float: left}
+
+.fr {float: right}
+
+.al {text-align: left}
+
+.ac {text-align: center}
+
+.ar {text-align: right}
+
+.hide {display: none !important;}
+
+[v-cloak]{display: none;}
+
+
+
+
